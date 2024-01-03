@@ -1,10 +1,9 @@
-// App.js
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './Component/Home';
 import About from './Component/About';
 import Mobile from './Component/Mobile';
-// import TodoForm from './Compo/Component1';
 const App = () => {
   return (
     <>
@@ -29,12 +28,9 @@ const App = () => {
      <Routes>
        <Route path="/Home" element={<Home />} />
        <Route path="/About" element={<About />} />
-       {/* <Route path="/test" element={<Test />} /> */}
+       
        <Route path="/Mobile" element={<Mobile />} />
-       {/* <Route path="/Mobile/List" element={<TodoForm/>}/> */}
-       {/* <Route path="/Product/*" element={<Product />} /> */}
-       {/* <Route path="/Product1" element={<Product1 />} /> */}
-       {/* <Route path="/Component/Headphones" element={<Headphones />} /> */}
+       
      </Routes>
      </div>
    </Router>
